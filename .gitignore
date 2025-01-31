@@ -28,3 +28,6 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# 忽略build目录
+build/

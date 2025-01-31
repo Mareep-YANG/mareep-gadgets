@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mareep-gadgets/coding-stats",
+	"version": "0.1.0",
+	"title": "Coding Time Data",
+	"category": "widgets",
+	"icon": "format-audio",
+	"description": "Show Wakatime coding stats",
+	"supports": {
+        "html": false
+    },
+	"attributes": {
+		"showNowPlaying": {
+		  "type": "boolean",
+		  "default": true
+		},
+		"showWeeklyStats": {
+		  "type": "boolean",
+		  "default": true
+		}
+	},
+	"textdomain": "coding-stats",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

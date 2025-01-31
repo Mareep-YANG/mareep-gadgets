@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mareep-gadgets/music-stats",
+	"version": "0.1.0",
+	"title": "Music Data",
+	"category": "widgets",
+	"icon": "format-audio",
+	"description": "Display your recent tracks and weekly chart",
+	"supports": {
+        "html": false
+    },
+	"attributes": {
+		"showNowPlaying": {
+		  "type": "boolean",
+		  "default": true
+		},
+		"showWeeklyStats": {
+		  "type": "boolean",
+		  "default": true
+		}
+	},
+	"textdomain": "music-stats",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}
